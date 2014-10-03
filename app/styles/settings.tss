@@ -1,0 +1,38 @@
+"Window":{
+	backgroundColor:"#fff",
+},
+"#header":{
+	width:Titanium.UI.FILL,
+	height:"45",
+	backgroundColor:"#000",
+	top:0,
+	left:0
+},
+"#titleHolder":{
+	width:150,
+	height:Titanium.UI.FILL,
+	left:0,
+	backgroundColor:"transparent",
+	zIndex:10
+},
+"#menuImage":{
+	left:-14,
+	width:32,
+	top:8
+},
+"#pageTitle":{
+	left:25,
+	color:"#c6c6c6",
+	fontSize:"20dp"
+},
+"#sideMenu":{
+	width:"200",
+	left:"-210",
+	backgroundColor:"#c6c6c6",
+	top:45
+},
+"ListItem":{
+	height:'40dp',
+	color:"#000",
+	image:"/images/icon.png"	
+}

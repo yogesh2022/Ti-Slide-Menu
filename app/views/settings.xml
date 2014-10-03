@@ -1,0 +1,19 @@
+<Alloy>
+	<Window id="mainPage">
+		<View id="header">
+			<View id="titleHolder" onClick="toggleMenu">
+				<ImageView id="menuImage" image="/images/menu.png"/>
+				<Label id="pageTitle">Settings</Label>
+			</View>
+		</View>
+		<View id="sideMenu">
+			<ListView onItemclick="pageNavigation">
+				<ListSection>
+					<ListItem title="Dashboard"></ListItem>
+					<ListItem title="Settings"></ListItem>
+					<ListItem title="About"></ListItem>
+				</ListSection>>
+			</ListView>>
+		</View>
+	</Window>
+</Alloy>
